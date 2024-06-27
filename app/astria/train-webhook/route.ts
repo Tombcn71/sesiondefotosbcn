@@ -119,7 +119,7 @@ export async function POST(request: Request) {
         from: "noreply@sesiondefotos.ai",
         to: user?.email ?? "",
         subject: "¡La sesión de fotos fue un éxito!",
-        html: `<h2>¡Le escribimos para notificarle que su capacitación modelo fue exitosa! Se ha utilizado 1 crédito de su cuenta.</h2>        <a href="https://www.sesiondefotos.ai" style="background-color: #0072b1 ; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Ver fotos</a>
+        html: `<h2>¡Le escribimos para notificarle que su capacitación modelo fue exitosa! Se ha utilizado 1 crédito de su cuenta.</h2>        <a href="https://www.sesiondefotos.ai/overview/models/[]" style="background-color: #0072b1 ; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Ver fotos</a>
 `,
       });
     }
@@ -150,7 +150,6 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         message: "success",
-        redirectUrl: "/overview/models/[]",
       },
       { status: 200, statusText: "Success" }
     );
