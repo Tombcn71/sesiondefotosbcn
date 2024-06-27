@@ -3,6 +3,7 @@ import { createRouteHandlerClient } from "@supabase/auth-helpers-nextjs";
 import axios from "axios";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
+import { useRouter } from "next/router";
 
 export const dynamic = "force-dynamic";
 
@@ -24,7 +25,6 @@ export async function POST(request: Request) {
   const name = payload.name;
 
   const supabase = createRouteHandlerClient<Database>({ cookies });
-  const tune_id: string = "690204";
 
   const {
     data: { user },
@@ -128,10 +128,10 @@ export async function POST(request: Request) {
 
   try {
     const trainWebhook = `https://${process.env.VERCEL_URL}/astria/train-webhook`;
-    const trainWebhookWithParams = `${trainWebhook}?user_id=${user.id}&tune_id=${tune_id}&webhook_secret=${appWebhookSecret}`;
+    const trainWebhookWithParams = `${trainWebhook}?user_id=${user.id}$}&webhook_secret=${appWebhookSecret}`;
 
     const promptWebhook = `https://${process.env.VERCEL_URL}/astria/prompt-webhook`;
-    const promptWebhookWithParams = `${promptWebhook}?user_id=${user.id}&tune_id=${tune_id}&webhook_secret=${appWebhookSecret}`;
+    const promptWebhookWithParams = `${promptWebhook}?user_id=${user.id}$&webhook_secret=${appWebhookSecret}`;
 
     const API_KEY = astriaApiKey;
     const DOMAIN = "https://api.astria.ai";
@@ -266,6 +266,7 @@ export async function POST(request: Request) {
   return NextResponse.json(
     {
       message: "success",
+      redirectUrl: "/overview/models/[]",
     },
     { status: 200 }
   );

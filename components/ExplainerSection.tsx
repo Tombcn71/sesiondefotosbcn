@@ -1,6 +1,6 @@
-import voorbeeld from "/public/voorbeeld.png";
-import wazig from "/public/wazig.png";
-import resultaat from "/public/resultaat.png";
+import voorbeeld1 from "/public/voorbeeld1.png";
+import wazig1 from "/public/wazig1.png";
+import resultaat1 from "/public/resultaat1.png";
 
 export default function ExplainerSection() {
   return (
@@ -27,7 +27,7 @@ export default function ExplainerSection() {
           het park, verjaardagen etc.
         </p>
         <img
-          src={voorbeeld.src}
+          src={voorbeeld1.src}
           alt="AI Headshot example"
           className="rounded-lg object-cover w-full md:w-3/4 lg:w-1/2 mx-auto"
         />
@@ -45,7 +45,7 @@ export default function ExplainerSection() {
           e-mail{" "}
         </p>
         <img
-          src={wazig.src}
+          src={wazig1.src}
           alt="AI Headshot blur"
           className="rounded-lg object-cover w-full md:w-3/4 lg:w-1/2 mx-auto"
         />
@@ -65,7 +65,7 @@ export default function ExplainerSection() {
           perfecte AI-portretfoto te kiezen.
         </p>
         <img
-          src={resultaat.src}
+          src={resultaat1.src}
           alt="AI Headshot result"
           className="rounded-lg object-cover w-full md:w-3/4 lg:w-1/2 mx-auto"
         />
