@@ -8,7 +8,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaImages } from "react-icons/fa";
 import ModelsTable from "../ModelsTable";
-import Guia from "@/components/Guia";
 export const revalidate = 0;
 
 type ClientSideModelsListProps = {
@@ -83,7 +82,6 @@ export default function ClientSideModelsList({
           </div>
         </div>
       )}
-      <Guia />
     </div>
   );
 }
