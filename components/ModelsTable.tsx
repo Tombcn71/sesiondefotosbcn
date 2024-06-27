@@ -31,10 +31,10 @@ export default async function ModelsTable({ models }: ModelsTableProps) {
       <Table className="w-full">
         <TableHeader>
           <TableRow>
-            <TableHead>Name</TableHead>
+            <TableHead>Nombre</TableHead>
             <TableHead>Status</TableHead>
-            <TableHead>Type</TableHead>
-            <TableHead>Samples</TableHead>
+            <TableHead>Typo</TableHead>
+            <TableHead>Muestras</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -42,18 +42,16 @@ export default async function ModelsTable({ models }: ModelsTableProps) {
             <TableRow
               key={model.modelId}
               onClick={() => handleRedirect(model.id)}
-              className="cursor-pointer h-16"
-            >
+              className="cursor-pointer h-16">
               <TableCell className="font-medium">{model.name}</TableCell>
               <TableCell>
                 <div>
                   <Badge
-                    className="flex gap-2 items-center w-min"
+                    className="flex gap-2 bg-green-600 hover:bg-green-500 items-center w-min"
                     variant={
                       model.status === "finished" ? "default" : "secondary"
-                    }
-                  >
-                    {model.status === "processing" ? "training" : model.status }
+                    }>
+                    {model.status === "processing" ? "training" : model.status}
                     {model.status === "processing" && (
                       <Icons.spinner className="h-4 w-4 animate-spin" />
                     )}

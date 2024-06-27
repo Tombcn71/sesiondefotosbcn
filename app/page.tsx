@@ -7,6 +7,7 @@ import herox from "/public/herox.png";
 import { Button } from "@/components/ui/button";
 import ExplainerSection from "@/components/ExplainerSection";
 import PricingSection from "@/components/PricingSection";
+import { Badge } from "@/components/ui/badge";
 
 export const dynamic = "force-dynamic";
 
@@ -52,7 +53,10 @@ export default async function Index() {
       </div>
       <ExplainerSection />
       <PricingSection /> <Faq />
-      <div className="pr-45"></div>
+      <div></div>
+      <Badge className="flex gap-2 bg-green-600 hover:bg-green-500 items-center w-min">
+        hello
+      </Badge>
     </div>
   );
 }

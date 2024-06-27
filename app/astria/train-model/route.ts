@@ -143,11 +143,6 @@ export async function POST(request: Request) {
             callback: promptWebhookWithParams,
             num_images: 8,
           },
-          {
-            text: `8k close up linkedin profile picture of ohwx ${type}, professional jack suite, professional headshots, photo-realistic, 4k, high-resolution image, workplace settings, upper body, modern outfit, professional suit, business, blurred background, glass building, office window`,
-            callback: promptWebhookWithParams,
-            num_images: 8,
-          },
         ],
       },
     };
