@@ -49,7 +49,7 @@ export default async function ModelsTable({ models }: ModelsTableProps) {
                   <Badge
                     className="flex gap-2 bg-green-600 hover:bg-green-500 items-center w-min"
                     variant={
-                      model.status === "finished" ? "default" : "secondary"
+                      model.status === "ver fotos" ? "default" : "secondary"
                     }>
                     {model.status === "processing" ? "training" : model.status}
                     {model.status === "processing" && (
