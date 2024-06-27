@@ -116,11 +116,10 @@ export async function POST(request: Request) {
     if (resendApiKey) {
       const resend = new Resend(resendApiKey);
       await resend.emails.send({
-        from: "noreply@sesiondefotos.ai",
+        from: "noreply@headshots.tryleap.ai",
         to: user?.email ?? "",
-        subject: "¡La sesión de fotos fue un éxito!",
-        html: `<h2>¡Le escribimos para notificarle que su capacitación modelo fue exitosa! Se ha utilizado 1 crédito de su cuenta.</h2>        <a href="https://www.sesiondefotos.ai/overview/models/[]" style="background-color: #0072b1 ; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Ver fotos</a>
-`,
+        subject: "Your model was successfully trained!",
+        html: `<h2>We're writing to notify you that your model training was successful! 1 credit has been used from your account.</h2>`,
       });
     }
 
