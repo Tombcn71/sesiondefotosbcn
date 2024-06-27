@@ -149,6 +149,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         message: "success",
+        redirectUrl: "/overview/models/[]",
       },
       { status: 200, statusText: "Success" }
     );
