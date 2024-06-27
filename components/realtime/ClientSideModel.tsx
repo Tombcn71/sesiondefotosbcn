@@ -62,7 +62,7 @@ export default function ClientSideModel({
             </div>
           )}
           <div className="flex flex-col w-full lg:w-1/2 rounded-md">
-            {model.status === "finalizado" && (
+            {model.status === "finished" && (
               <div className="flex flex-1 flex-col gap-2">
                 <h1 className="text-xl">Resultados</h1>
                 <div className="flex flex-row flex-wrap gap-4">

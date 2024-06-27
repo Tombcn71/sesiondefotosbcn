@@ -56,8 +56,8 @@ export default async function Index({ params }: { params: { id: string } }) {
           <h1 className="text-xl">{model.name}</h1>
           <div>
             <Badge
-              variant={model.status === "finilizado" ? "default" : "secondary"}
-              className="text-xs font-medium">
+              variant={model.status === "finished" ? "default" : "secondary"}
+              className="text-xs font-medium bg-green-600 hover:bg-green-500">
               {model.status === "processing" ? "training" : model.status}
               {model.status === "processing" && (
                 <Icons.spinner className="h-4 w-4 animate-spin ml-2 inline-block" />

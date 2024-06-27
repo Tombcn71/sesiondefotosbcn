@@ -54,9 +54,6 @@ export default async function Index() {
       <ExplainerSection />
       <PricingSection /> <Faq />
       <div></div>
-      <Badge className="flex gap-2 bg-green-600 hover:bg-green-500 items-center w-min">
-        hello
-      </Badge>
     </div>
   );
 }

@@ -127,7 +127,7 @@ export async function POST(request: Request) {
     const { data: modelUpdated, error: modelUpdatedError } = await supabase
       .from("models")
       .update({
-        status: "finilizado",
+        status: "finished",
       })
       .eq("modelId", tune.id)
       .select();

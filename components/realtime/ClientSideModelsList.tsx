@@ -61,7 +61,9 @@ export default function ClientSideModelsList({
           <div className="flex flex-row gap-4 w-full justify-between items-center text-center">
             <h1>Your models</h1>
             <Link href="/overview/models/train" className="w-fit">
-              <Button size={"sm"}>Iniciar sesión de fotos</Button>
+              <Button className="bg-sky-600 hover:bg-sky-700">
+                Iniciar sesión de fotos
+              </Button>
             </Link>
           </div>
           <ModelsTable models={models} />
