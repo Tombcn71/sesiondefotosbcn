@@ -42,7 +42,7 @@ export default async function ModelsTable({ models }: ModelsTableProps) {
             <TableRow
               key={model.modelId}
               onClick={() => handleRedirect(model.id)}
-              className="cursor-pointer hover:bg-sky-400 h-16">
+              className="cursor-pointer hover:bg-sky-200 h-16">
               <TableCell className="font-medium">{model.name}</TableCell>
               <TableCell>
                 <div>
