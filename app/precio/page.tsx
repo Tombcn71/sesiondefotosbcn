@@ -2,11 +2,10 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata = {
-  title:
-    "AI Portetfoto Prijzen | Betaalbare Bedrijfsoplossing | AiFotosessie.nl",
+  title: "Precios sesiondefotos con IA | sesiondefotos.ai",
 
   description:
-    " Ontdek de betaalbare prijzen van AiFotosessie.nl, de AI-app voor professionele portetfoto's voor je hele team. Bespaar op dure fotografen en creëer een consistente uitstraling. Bekijk pakketten & bespaar tijd en geld!",
+    "Ahorre en fotógrafos costosos y cree una apariencia consistente. ¡Vea paquetes y ahorre tiempo y dinero!",
 };
 export default function PricingSection() {
   return (

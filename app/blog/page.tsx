@@ -1,10 +1,10 @@
 import Posts from "@/components/Posts";
 
 export const metadata = {
-  title: "Blog over AI Portetfoto's | AiFotosessie.nl",
+  title: "Blog sobre fotografías de retratos con IA| sesiondefotos.ai",
 
   description:
-    "Een goed gemaakte portretfoto kan deuren openen naar nieuwe kansen, jouw online aanwezigheid verbeteren en je helpen op te vallen in jouw werkveld, of je nu een ondernemer bent of freelancer of gewoon jouw professionele imago wilt verbeteren.",
+    "Un retrato bien elaborado puede abrir puertas a nuevas oportunidades, mejorar tu presencia online y ayudarte a destacar en tu campo, ya seas emprendedor, autónomo o simplemente quieras mejorar tu imagen profesional.",
 };
 export default function Home() {
   return (

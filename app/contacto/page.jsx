@@ -36,12 +36,12 @@ function Contact() {
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className="max-w-lg mx-auto space-y-3 sm:text-center">
                     <h3 className="text-indigo-600 font-semibold">
-                        Contact
+                        Contacto
                     </h3>
                     <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                        Kom in contact met ons                    </p>
+                        Contactenos                    </p>
                     <p>
-                        We horen het graag! Vul onderstaand formulier in.
+                        Nos gustaría escucharlo! Complete el formulario a continuación.
                     </p>
                 </div>
                 <div className="mt-12 max-w-lg mx-auto">
@@ -53,7 +53,7 @@ function Contact() {
 
                         </div><div>
                             <label className="font-medium">
-                                Naam
+                                Nombre
 
                             </label>
                             <input
@@ -75,12 +75,12 @@ function Contact() {
 
                         <div>
                             <label className="font-medium">
-                                Bericht                            </label>
+                                Messaje                            </label>
                             <textarea name="message" required className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"></textarea>
                         </div>
                         <button className="w-full px-4 py-2 text-white font-medium  hover:bg-sky-700 bg-sky-600 active: hover:bg-sky-700 bg-sky-600 rounded-lg duration-150">
 
-                            Versturen
+                            Enviar
 
                         </button>
                     </form>

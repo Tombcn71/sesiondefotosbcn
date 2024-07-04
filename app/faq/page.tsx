@@ -1,9 +1,10 @@
 import React from "react";
 export const metadata = {
-  title: "FAQ | Kan A.I. een echte foto shoot vervangen? | AiFotosessie.nl",
+  title:
+    "FAQ | ¿Puede la IA? ¿Reemplazar una sesión de fotos real? | sesiondefotos.ai",
 
   description:
-    "ja de A.I. technologie die wij gebruiken heeft een professionele fotokwaliteit die niet te onderscheiden is van een foto gemaakt door een echte fotograaf",
+    "Sí, la IA  tecnología que utilizamos tiene una calidad fotográfica profesional que es indistinguible de una foto tomada por un fotógrafo real.",
 };
 export default function FAQ() {
   return (

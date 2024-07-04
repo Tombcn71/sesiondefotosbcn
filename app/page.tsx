@@ -7,7 +7,6 @@ import herox from "/public/herox.png";
 import { Button } from "@/components/ui/button";
 import ExplainerSection from "@/components/ExplainerSection";
 import PricingSection from "@/components/PricingSection";
-import { Badge } from "@/components/ui/badge";
 
 export const dynamic = "force-dynamic";
 
