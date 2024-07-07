@@ -20,11 +20,7 @@ export default function ExplainerSection() {
           Mire directamente a la cámara, asegúrese de que su rostro esté en el
           centro de la foto. <br />
           Evite sombreros y gafas de sol. Proporcione fotografías variadas con
-          varios
-          <br />
-          fondos y situaciones, por ejemplo, fotografías de vacaciones y
-          fotografías de su <br />
-          el parque, cumpleaños, etc.
+          varios fondos y situaciones
         </p>
         <img
           src={voorbeeld1.src}
