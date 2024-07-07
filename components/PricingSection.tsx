@@ -5,7 +5,7 @@ export default function PricingSection() {
   return (
     <div className="w-full max-w-6xl mt-16 mb-16 p-8 rounded-lg space-y-8">
       <h2 id="Precio" className=" text-3xl font-bold text-center mb-8">
-        Prijzen
+        Precios
       </h2>
       <div className="flex flex-wrap justify-center lg:space-x-4 space-y-4 lg:space-y-0 items-stretch">
         {pricingOptions.map((option, index) => (
@@ -51,15 +51,14 @@ const pricingOptions = [
     title: "1 Credit",
 
     price: "25€",
-    description:
-      "Perfect voor personen die hun online aanwezigheid willen verbeteren.",
+    description: "Perfecto para quienes buscan mejorar su presencia en línea.",
     features: [
-      "1 fotosessie",
-      " 40 HD AI Foto's",
-      "20+ stijlen",
-      "Klaar in 30 minuten",
+      "1 sesión de fotos",
+      "40 fotos HD con IA",
+      "Más de 20 estilos",
+      "Listo en 30 minutos",
     ],
-    buttonText: "Koop fotosessie ",
+    buttonText: "Comprar sesión de fotos ",
     bgColor: "bg-white",
   },
   {
@@ -67,15 +66,15 @@ const pricingOptions = [
 
     price: "55€ ",
     description:
-      "Ideal voor kleine teams van 3 personen die hun online aanwezigheid willen verbeteren.",
+      "Ideal para equipos pequeños de 3 personas que quieran mejorar su presencia online.",
     features: [
-      "3 individuele fotosessies",
-      " Ieder 40 HD AI Foto's",
-      "20+ stijlen",
-      "Klaar in 30 minuten",
+      "3 sesiones de fotos individuales",
+      "40 fotos HD AI cada una",
+      "Más de 20 estilos",
+      "Listo en 30 minutos",
     ],
 
-    buttonText: "Koop fotosessie ",
+    buttonText: "Comprar sesión de fotos ",
     bgColor: "bg-blue-50",
   },
   {
@@ -83,14 +82,14 @@ const pricingOptions = [
 
     price: "95€",
     description:
-      "Ideal voor teams van 5 personen die hun online aanwezigheid willen verbeteren.",
+      "Ideal para equipos de 5 personas que quieran mejorar su presencia online.",
     features: [
-      "5 individuele fotosessies",
-      " Ieder 40 HD AI Foto's",
-      "20+ stijlen",
-      "Klaar in 30 minuten",
+      "5 sesiones de fotos individuales",
+      "40 fotos HD AI cada una",
+      "Más de 20 estilos",
+      "Listo en 30 minutos",
     ],
-    buttonText: "Koop fotosessie  ",
+    buttonText: "Comprar sesión de fotos ",
     bgColor: "bg-white",
   },
 ];
