@@ -64,14 +64,8 @@ export default async function Navbar() {
         <Link href="/#Precio">
           <Button variant={"ghost"}>Precio</Button>
         </Link>
-        <Link href="/guiadefotos">
-          <Button variant={"ghost"}>Guia de fotos</Button>
-        </Link>
         <Link href="/#Faq ">
           <Button variant={"ghost"}>Faq</Button>
-        </Link>
-        <Link href="/blog">
-          <Button variant={"ghost"}>Blog</Button>
         </Link>
         <Link href="/contacto">
           <Button variant={"ghost"}>Contacto</Button>
