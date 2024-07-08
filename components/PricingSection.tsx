@@ -58,7 +58,7 @@ const pricingOptions = [
       "Más de 20 estilos",
       "Listo en 30 minutos",
     ],
-    buttonText: "Comprar sesión de fotos ",
+    buttonText: "Comprar ",
     bgColor: "bg-white",
   },
   {
@@ -74,7 +74,7 @@ const pricingOptions = [
       "Listo en 30 minutos",
     ],
 
-    buttonText: "Comprar sesión de fotos ",
+    buttonText: "Comprar ",
     bgColor: "bg-blue-50",
   },
   {
@@ -89,7 +89,7 @@ const pricingOptions = [
       "Más de 20 estilos",
       "Listo en 30 minutos",
     ],
-    buttonText: "Comprar sesión de fotos ",
+    buttonText: "Comprar ",
     bgColor: "bg-white",
   },
 ];
